@@ -1,0 +1,12 @@
+.footerContainer{
+    height: 70px;
+    background-color: #B689C0;
+    margin: 10px 0px;
+    color: aliceblue;
+    padding: 5px 0px;
+}
+
+.disclaimer{
+    font-size: 10px;
+    font-weight: 700;
+}

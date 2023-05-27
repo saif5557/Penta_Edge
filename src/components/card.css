@@ -1,0 +1,90 @@
+.cardWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cardContainer{
+    width: 300px;
+    
+    background-color: #E5E5CB;
+    border-radius: 10px;
+    height: 200px;
+    
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.cardContainer:hover{
+    transform: scale(1.05);
+}
+
+.cardHeading{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: large;
+    background-color: #3C2A21;
+    border-radius: 12px;
+    align-items: baseline;
+}
+.cardMainContent{
+    display: flex;
+    flex-direction: column;
+}
+.cardDescription{
+    background-color: #C4DFDF;
+    color: #2F58CD;
+}
+.cardLogoArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.logoRow1{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+.logoRow1 img{
+    width: 50px;
+}
+.fontSamll{
+    width: 63px;
+    height: 50px;
+    vertical-align: middle;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: #2F58CD;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.roundImg{
+    border-radius: 50%;
+}
+.cardDescription p{
+    font-size: 10px;
+    margin: 0px;
+    font-weight: 500;
+    
+}
+.cardDescription{
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    
+}

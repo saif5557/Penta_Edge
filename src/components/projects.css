@@ -1,0 +1,83 @@
+
+.projectsCardWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.projectsCardContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+    gap: 10px;
+}
+.projectsCardArea{
+    width: 240px;
+    background-color: #408E91;
+    border-radius: 10px;
+    position: relative;
+    color: wheat;
+
+}
+.dot{
+    width: 50px;
+    background-color: #e93524ef;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top: 2px;
+    left: -8px;
+    text-align: center;
+}
+.projectsCardText{
+    background-color: #FF6D60;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/rajconnect.png);
+    background-position: center;
+    background-size: contain;
+    
+    
+    width: 240px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    color: #FF6D60;
+}
+.projectsCardText h4{
+    font-size: 35px;
+}
+
+.pColor{
+    color: aliceblue;
+    font-weight: 600;
+}
+.projectsCardDesc{
+    font-size: 10px;
+    font-weight: 600;
+    padding: 5px;
+    
+}
+.projectCardButtonos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #9A208C;
+    border-radius: 5px;
+}
+.projectCardButtonos p{
+    margin: 0px;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+}

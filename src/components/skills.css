@@ -1,0 +1,25 @@
+.skillsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+.skillsWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media (max-width : 768px) {
+    
+    .skillsWrapper{
+        gap: 10px;
+    }
+
+    
+}

@@ -1,0 +1,93 @@
+
+.fullSkillCard{
+    display: flex;
+    position: relative;
+    
+}
+
+.SkillsCardWrapper{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+    border: 2px solid #F0EDD4;
+}
+.SkillsCardText p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 17px;
+
+}
+.boldtext{
+    font-size: 25px;
+    font-weight: 600;
+}
+.skillCardImg img{
+    width: 36px;
+    border-radius: 50%;
+}
+
+.descWrapper{
+
+    width: 250px;
+    background-color: #eee6cc;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    top :-55px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid ;
+    z-index: 7;
+    
+    
+    display: none;
+}
+
+.fullSkillCard:hover .descWrapper {
+    
+    display: inline-block;
+    
+}
+.fullSkillCard:hover .arrow{
+    display: inline-block;
+    
+}
+
+.descWrapper p{
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.arrow{
+    position: absolute;
+    left: calc(50% - 10px);
+    top: -22px;
+    font-size: 30px;
+    display: none;
+
+}
+
+@media (max-width:786px) {
+
+    .descWrapper{
+        left: -70px;
+    }
+    
+}
+.left-130{
+    left:-140px;
+}
+.left-first{
+    left:0px;
+    
+}
+

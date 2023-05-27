@@ -1,0 +1,129 @@
+.topbarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D2E9E9;
+}
+
+.topbarContainerWidth{
+    width: 1024px;
+    gap: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 5px;
+}
+.topbarLogo{
+    flex:3;
+    font-weight: 500;
+}
+.topbarNav{
+    flex:6;
+}
+
+.topbarItems{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.topbarItems li{
+    list-style: none;
+}
+.topbarButton{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    display: block;
+    flex-direction: column;
+    cursor: pointer;
+     border: .5px solid transparent;
+     padding: 3px;
+     width: 30px;
+     display: none;
+     margin: 0px;
+}
+.topbarButton:hover{
+    
+    border: 1px solid black;
+}
+.ityped-cursor{
+    display: none;
+}
+.line{
+    width: 26px;
+    height: 5px;
+    margin: 0px;
+
+    border-bottom: 1.5px solid black;
+}
+
+@media (max-width: 768px) {
+  .topbarButton {
+    display: block;
+    
+    
+  }
+  .topbarNav{
+    display: none;
+  }
+}
+
+.menuItems{
+    height: calc(100vh - 50px);
+    background-color: rgb(182, 182, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+.topbarItemsMobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.topbarItemsMobile li{
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.mobileView{
+    gap: 0px;
+    
+    padding: 10px;
+    border-radius: 6px;
+    
+}
+
+.topbarItemsMobile li:hover{
+    
+    background-color: #FDCEDF;
+    border-radius: 10px;
+}
+.l1{
+    transform:  rotate(45deg);
+    transform-origin: center ; /* Set the transform origin to the center */
+  transition: transform 0.3s ease-in-out;
+}
+.l2{
+    display: none;
+}
+.l3{
+    transform:  rotate(135deg);
+    transform-origin: center center; /* Set the transform origin to the center */
+  transition: transform 0.3s ease-in-out;
+}
+.link{
+    text-decoration: none;
+    font-weight: 600;
+}

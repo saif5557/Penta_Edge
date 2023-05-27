@@ -1,0 +1,26 @@
+.cardAreaContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+    gap: 20px;
+}
+.CardAreaWrapper{
+    width: 1024px;
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+@media (max-width: 768px) {
+    .CardAreaWrapper{
+        flex-direction: column;
+    }
+    
+}
