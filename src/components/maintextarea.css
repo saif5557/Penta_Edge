@@ -1,0 +1,36 @@
+.MTCP1{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-weight: 1400;
+    color: #37AFE1;
+    padding: 20px;
+}
+
+.MTCP2{
+    text-align: center;
+    text-align: justify;
+   
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+    color: #120f34;
+}
+.maincont{
+    width: 100%;
+   
+}
+
+.MTAImg{
+width: 50%;
+
+justify-content: center;
+align-items: center;
+display: flex;
+background-color: rgba(146, 193, 177, 0.432);
+}
+.MTAtext{
+width: 50%;
+
+}

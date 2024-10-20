@@ -18,9 +18,35 @@
 .topbarLogo{
     flex:3;
     font-weight: 500;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  
+
+}
+.logoImg_Nav_container{
+border-radius: 10px;
+}
+
+
+.logoImg_Nav{
+
+width: 50px;
+height:40px;
+object-fit: contain;
+
+
+
 }
 .topbarNav{
     flex:6;
+}
+.logoText{
+    text-align: center;
+    vertical-align: center;
+   
+    height: 100%;
+
 }
 
 .topbarItems{

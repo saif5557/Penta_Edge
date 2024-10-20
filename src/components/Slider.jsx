@@ -18,24 +18,34 @@ export default function Slider() {
       <Carousel.Item>
         <img
           className="d-block w300 sliderImgP"
-          src="https://media.istockphoto.com/id/1337657234/vector/geometric-gradient-colored-abstract-background-2d-eps-10-illustration-for-application.webp?s=170667a&w=0&k=20&c=cSm2APJsl5Fd6-fB3RnpIm5ia9mFv8g6ngbhDl0sGUc="
+          src="https://images.pexels.com/photos/11279906/pexels-photo-11279906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3 className='sliderFont'>Full Stack Java Developer</h3>
-          <p className='colorSlider'>Java | Advance Java | Spring | Springboot | Hibernate</p>
+          <h3 className='sliderFont'>EARN MORE WITH
+          PROFESSIONAL SERVICES</h3>
+          <p className='colorSlider'>Professionals & dedicated financial
+
+experts can help you to set your
+
+financial freedom</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w300 sliderImgP"
-          src="https://media.istockphoto.com/id/1337657234/vector/geometric-gradient-colored-abstract-background-2d-eps-10-illustration-for-application.webp?s=170667a&w=0&k=20&c=cSm2APJsl5Fd6-fB3RnpIm5ia9mFv8g6ngbhDl0sGUc="
+          src="https://images.pexels.com/photos/1602726/pexels-photo-1602726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3 className='sliderFont'>Full Stack Web Developer</h3>
-          <p className='colorSlider'>ReactJs | NodeJs | ExpressJs | MongoDB</p>
+          <h3 className='sliderFont'>EARN MORE WITH
+          PROFESSIONAL SERVICES</h3>
+          <p className='colorSlider'>Professionals & dedicated financial
+
+experts can help you to set your
+
+financial freedom</p>
         </Carousel.Caption>
       </Carousel.Item>
       

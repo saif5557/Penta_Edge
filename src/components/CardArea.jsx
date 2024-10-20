@@ -55,7 +55,7 @@ export default function CardArea() {
       <div className="CardAreaWrapper ">
       <div className="cardWrapper">
       <div className="cardContainer">
-        <div className="cardHeading">Programing</div>
+        <div className="cardHeading">Fund Houses</div>
         <div className="cardMainContent">
             <div className="cardLogoArea">
                 <div className="logoRow1">
@@ -76,7 +76,7 @@ export default function CardArea() {
         </div>
         <div className="cardDescription">
             <p>
-       Solved over 700+ DSA Questions on various coding platforms 
+            Wealth Redefine is associated with almost every renowned fund houses to provide the best of services and funds. We choose the fund houses carefully to provide the best value for our esteemed clients.
           </p>
         </div>
       </div>
@@ -85,7 +85,7 @@ export default function CardArea() {
 
     <div className="cardWrapper">
       <div className="cardContainer">
-        <div className="cardHeading">Frontend Development</div>
+        <div className="cardHeading">Online partners – NSE and BSE</div>
         <div className="cardMainContent">
             <div className="cardLogoArea">
                 <div className="logoRow1">
@@ -112,7 +112,7 @@ export default function CardArea() {
 
     <div className="cardWrapper">
       <div className="cardContainer">
-        <div className="cardHeading">Backend Development</div>
+        <div className="cardHeading">Blog On The Finance</div>
         <div className="cardMainContent">
             <div className="cardLogoArea">
                 <div className="logoRow1">

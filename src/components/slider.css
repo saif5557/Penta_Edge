@@ -1,6 +1,6 @@
 .w300{
-    width: 1024px;
-    height: 300px;
+    width: 100vw;
+    height: 350px;
 }
 .sliderContainer{
     background-color: #DBE4C6;
@@ -9,17 +9,20 @@
     align-items: center;
 }
 
-sliderImgP{
+.sliderImgP{
     
+    filter: blur(5px); 
     object-fit: cover;
+    
+
     
 }
 .sliderFont{
     font-size: 50px;
-    color: #10A19D;
+    color: white;
 }
 .colorSlider{
-    color: #CF0A0A;
+    color: #0e056d;
     font-weight: 600;
 }
 

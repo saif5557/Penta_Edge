@@ -2,38 +2,44 @@ import React, { useEffect, useRef, useState } from "react";
 import "./topbar.css";
 import { init } from "ityped";
 import { Link } from "react-router-dom";
+import LogoImg from '../img/PentaLogo.jpg'
 
 export default function Topbar() {
   const textRef = useRef();
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    init(textRef.current, {
-      backDelay: 1500,
-      backSpeed: 30,
-      strings: ["Raj(at+1)", "Rajat Raj Gupta"],
-    });
+    
   }, [isMenuOpen]);
   return (
     <div>
       <div className="topbarContainer">
         <div className="topbarContainerWidth">
-          <div className="topbarLogo" ref={textRef}></div>
+          <div className="topbarLogo"  >
+            <div className="logoImg_Nav_container">
+              <img className="logoImg_Nav" src={LogoImg} alt="" />
+            </div>
+            <div className="logoText">Penta Edge</div>
+            </div>
           <div className="topbarNav">
             <div className="topbarItems">
               <Link to={"/"} className="link">
                 <li>Home</li>
               </Link>
-              <a href="#projects" className="link">
-                
-                <li>Projects</li>
-              </a>
-              <a href="#about" className="link">
-                
-                <li>About Me</li>
-              </a>
-              <Link to="resume" className="link">
-                <li>Resume</li>
+              <Link to={"/about"} className="link">
+                <li>About Us</li>
+              </Link>
+              <Link to={"/wp"} className="link">
+                <li>Why Penta Edege</li>
+              </Link>
+              <Link to={"/services"} className="link">
+                <li>Services</li>
+              </Link>
+              <Link to={"/contact"} className="link">
+                <li>Contact Us</li>
+              </Link>
+              <Link to={"/disclosure"} className="link">
+                <li>Disclosure</li>
               </Link>
             </div>
           </div>

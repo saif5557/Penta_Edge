@@ -1,7 +1,7 @@
 import React from 'react'
 import './profile.css'
 
-import profileImg from '../img/profile-pic.png'
+
 import git from '../img/git3.png';
 import gfg from '../img/gfgf.jfif';
 import leetcode from '../img/LeetCode.png';
@@ -14,7 +14,7 @@ export default function Profile() {
         <div className="ProfileWrapper" id='about'>
             <div className="ProfileContainer">
                 <div className="profileImgArea">
-                    <img src={profileImg} alt="" />
+                    <img src={''} alt="" />
 
                 </div>
                 <div className="profileDescriptionArea">

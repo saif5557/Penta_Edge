@@ -1,0 +1,18 @@
+.maincont{
+    display: flex;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.flexR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    flex-direction: row-reverse;
+}
